@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Clean Architecture</string>
+
+    <!-- Login Module. -->
+    <string name="login">Login</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="please_wait">Please wait</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="username_invalid">Invalid UserName</string>
+    <string name="password_invalid">Invalid Password</string>
+    <string name="login_sucess">Login Success</string>
+
+    <!-- Ticket Module. -->
+    <string name="ticket">Ticket</string>
+    <string name="no_tickets_found">No Tickets Found.</string>
+
+
+</resources>

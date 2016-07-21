@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vasanth.cleanarchitecture">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Login Module. -->
+        <!-- Login Activity. -->
+        <activity
+            android:name=".login.view.impl.activity.LoginActivity"
+            android:label="@string/login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Ticket Module. -->
+        <!-- Ticket Activity. -->
+        <activity
+            android:name=".ticket.view.impl.activity.TicketActivity"
+            android:label="@string/ticket" />
+    </application>
+
+</manifest>

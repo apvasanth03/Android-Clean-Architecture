@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Provides UI for Login Screen. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activityLogin_viewGroup_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <!-- ViewGroup - Holds Login View. -->
+    <LinearLayout
+        android:id="@+id/activityLogin_viewGroup_loginViewRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Login Label. -->
+        <TextView
+            android:id="@+id/activityLogin_view_loginLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="@string/login" />
+
+        <!-- UserName Text Input View. -->
+        <EditText
+            android:id="@+id/activityLogin_view_userNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/username"
+            android:inputType="text" />
+
+        <!-- Password Text Input View. -->
+        <EditText
+            android:id="@+id/activityLogin_view_passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <!-- Remember Me CheckBox. -->
+        <CheckBox
+            android:id="@+id/activityLogin_view_rememberMeCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/remember_me" />
+
+        <!-- Login Button. -->
+        <Button
+            android:id="@+id/activityLogin_view_loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
