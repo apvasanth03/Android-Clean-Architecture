@@ -10,11 +10,12 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Thread Executor.
- * <p/>
+ * <p>
  * 1. Responsibility.
  * 1.a. Thread Executor implements Executor and makes sure that each interactor gets executed in new thread.
  *
  * @author Vasanth
+ * @see Executor
  */
 public class ThreadExecutor implements Executor {
 
@@ -62,7 +63,7 @@ public class ThreadExecutor implements Executor {
 
     /**
      * Run
-     * <p/>
+     * <p>
      * 1. Executes interator in new thread.
      *
      * @param interactor Interactor.
